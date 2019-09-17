@@ -1,0 +1,73 @@
+---------------------------------------------------------------
+[ 2019-08-21T10:46:10+08:00 ] 172.26.2.167 GET local.hqy.com/v1/index/index.html
+[运行时间：0.418361s] [吞吐率：2.39req/s] [内存消耗：1,622.70kb] [文件加载：49]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=u733ql4gsjnsdh2b0n4l3ntuau',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\Index->index[ /opt/web/hqy/application/v1/controller/Index.php ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/index/index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-21T10:46:10+08:00 ] 172.26.2.167 GET local.hqy.com/static/assets/components/bootstrap-select/css/bootstrap-select.css.map
+[运行时间：0.168206s] [吞吐率：5.95req/s] [内存消耗：1,023.53kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'components',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=u733ql4gsjnsdh2b0n4l3ntuau',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'select' => 'css',
+)
+[ info ] [ LOG ] INIT File

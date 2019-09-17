@@ -1,0 +1,2952 @@
+---------------------------------------------------------------
+[ 2019-08-29T09:33:05+08:00 ] 172.26.2.167 GET local.hqy.com/v1/organization/index.html
+[运行时间：0.357062s] [吞吐率：2.80req/s] [内存消耗：1,478.95kb] [文件加载：45]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/system/menu.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->index[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/organization/index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T09:33:06+08:00 ] 172.26.2.167 GET local.hqy.com/static/assets/components/bootstrap-select/css/bootstrap-select.css.map
+[运行时间：0.191495s] [吞吐率：5.22req/s] [内存消耗：1,023.53kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'components',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'select' => 'css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T09:41:56+08:00 ] 172.26.2.167 GET local.hqy.com/v1/organization/index.html
+[运行时间：0.330954s] [吞吐率：3.02req/s] [内存消耗：1,480.40kb] [文件加载：45]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/system/menu.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->index[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/organization/index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T09:41:57+08:00 ] 172.26.2.167 GET local.hqy.com/static/assets/components/bootstrap-select/css/bootstrap-select.css.map
+[运行时间：0.238197s] [吞吐率：4.20req/s] [内存消耗：1,023.53kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'components',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'select' => 'css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T09:42:15+08:00 ] 172.26.2.167 GET local.hqy.com/v1/organization/index.html
+[运行时间：0.335337s] [吞吐率：2.98req/s] [内存消耗：1,480.40kb] [文件加载：45]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/system/menu.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->index[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/organization/index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T09:42:16+08:00 ] 172.26.2.167 GET local.hqy.com/static/assets/components/bootstrap-select/css/bootstrap-select.css.map
+[运行时间：0.158667s] [吞吐率：6.30req/s] [内存消耗：1,023.53kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'components',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'select' => 'css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T09:44:06+08:00 ] 172.26.2.167 GET local.hqy.com/v1/organization/index.html
+[运行时间：0.313359s] [吞吐率：3.19req/s] [内存消耗：1,479.12kb] [文件加载：45]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/system/menu.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->index[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/organization/index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T09:44:06+08:00 ] 172.26.2.167 GET local.hqy.com/static/assets/components/bootstrap-select/css/bootstrap-select.css.map
+[运行时间：0.142827s] [吞吐率：7.00req/s] [内存消耗：1,023.53kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'components',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'select' => 'css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T09:44:54+08:00 ] 172.26.2.167 GET local.hqy.com/v1/organization/index.html
+[运行时间：0.343205s] [吞吐率：2.91req/s] [内存消耗：1,479.12kb] [文件加载：45]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/system/menu.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->index[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/organization/index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T09:44:55+08:00 ] 172.26.2.167 GET local.hqy.com/static/assets/components/bootstrap-select/css/bootstrap-select.css.map
+[运行时间：0.148783s] [吞吐率：6.72req/s] [内存消耗：1,023.53kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'components',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'select' => 'css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T09:45:14+08:00 ] 172.26.2.167 GET local.hqy.com/v1/organization/index.html
+[运行时间：0.308566s] [吞吐率：3.24req/s] [内存消耗：1,479.12kb] [文件加载：45]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/system/menu.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->index[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/organization/index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T09:45:14+08:00 ] 172.26.2.167 GET local.hqy.com/static/assets/components/bootstrap-select/css/bootstrap-select.css.map
+[运行时间：0.177577s] [吞吐率：5.63req/s] [内存消耗：1,023.53kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'components',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'select' => 'css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T09:45:17+08:00 ] 172.26.2.167 GET local.hqy.com/v1/organization/index.html
+[运行时间：0.248682s] [吞吐率：4.02req/s] [内存消耗：1,480.55kb] [文件加载：45]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/system/menu.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->index[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/organization/index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T09:45:17+08:00 ] 172.26.2.167 GET local.hqy.com/static/assets/components/bootstrap-select/css/bootstrap-select.css.map
+[运行时间：0.289942s] [吞吐率：3.45req/s] [内存消耗：1,023.53kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'components',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'select' => 'css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T09:47:36+08:00 ] 172.26.2.167 GET local.hqy.com/v1/organization/index.html
+[运行时间：0.311487s] [吞吐率：3.21req/s] [内存消耗：1,479.12kb] [文件加载：45]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/system/menu.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->index[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/organization/index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T09:47:36+08:00 ] 172.26.2.167 GET local.hqy.com/static/assets/components/bootstrap-select/css/bootstrap-select.css.map
+[运行时间：0.173632s] [吞吐率：5.76req/s] [内存消耗：1,023.53kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'components',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'select' => 'css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T09:48:18+08:00 ] 172.26.2.167 GET local.hqy.com/v1/organization/index.html
+[运行时间：0.320268s] [吞吐率：3.12req/s] [内存消耗：1,479.12kb] [文件加载：45]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/system/menu.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->index[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/organization/index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T09:48:18+08:00 ] 172.26.2.167 GET local.hqy.com/static/assets/components/bootstrap-select/css/bootstrap-select.css.map
+[运行时间：0.143901s] [吞吐率：6.95req/s] [内存消耗：1,023.53kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'components',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'select' => 'css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T09:48:19+08:00 ] 172.26.2.167 GET local.hqy.com/v1/organization/index.html
+[运行时间：0.283200s] [吞吐率：3.53req/s] [内存消耗：1,480.55kb] [文件加载：45]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/system/menu.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->index[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/organization/index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T09:48:20+08:00 ] 172.26.2.167 GET local.hqy.com/static/assets/components/bootstrap-select/css/bootstrap-select.css.map
+[运行时间：0.370353s] [吞吐率：2.70req/s] [内存消耗：1,023.53kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'components',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'select' => 'css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T09:48:49+08:00 ] 172.26.2.167 GET local.hqy.com/v1/organization/index.html
+[运行时间：0.231573s] [吞吐率：4.32req/s] [内存消耗：1,480.55kb] [文件加载：45]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/system/menu.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->index[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/organization/index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T09:48:50+08:00 ] 172.26.2.167 GET local.hqy.com/static/assets/components/bootstrap-select/css/bootstrap-select.css.map
+[运行时间：0.158609s] [吞吐率：6.30req/s] [内存消耗：1,023.53kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'components',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'select' => 'css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T09:48:58+08:00 ] 172.26.2.167 GET local.hqy.com/v1/organization/index.html
+[运行时间：0.225726s] [吞吐率：4.43req/s] [内存消耗：1,480.55kb] [文件加载：45]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/system/menu.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->index[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/organization/index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T09:48:59+08:00 ] 172.26.2.167 GET local.hqy.com/static/assets/components/bootstrap-select/css/bootstrap-select.css.map
+[运行时间：0.278456s] [吞吐率：3.59req/s] [内存消耗：1,023.53kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'components',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'select' => 'css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T09:49:00+08:00 ] 172.26.2.167 GET local.hqy.com/v1/organization/addorg.html
+[运行时间：0.217505s] [吞吐率：4.60req/s] [内存消耗：1,279.30kb] [文件加载：42]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'addorg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/organization/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->addorg[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T09:49:15+08:00 ] 172.26.2.167 GET local.hqy.com/v1/organization/addorg.html
+[运行时间：0.914491s] [吞吐率：1.09req/s] [内存消耗：5,327.80kb] [文件加载：53]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'addorg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/organization/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->addorg[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.127134s ] mysql:host=47.105.48.137;dbname=huiqiyun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.089572s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `status` = 1 [ RunTime:0.313028s ]
+---------------------------------------------------------------
+[ 2019-08-29T09:59:00+08:00 ] 172.26.2.167 GET local.hqy.com/v1/organization/addorg.html
+[运行时间：1.001268s] [吞吐率：1.00req/s] [内存消耗：4,863.85kb] [文件加载：61]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'addorg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/organization/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->addorg[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/organization/addorg.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+  5 => 'saleUser',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.128820s ] mysql:host=47.105.48.137;dbname=huiqiyun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.077813s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `status` = 1 [ RunTime:0.278716s ]
+[ error ] [8]Array to string conversion[/opt/web/hqy/runtime/temp/bd3a3d8e49878e6bb1ab1b47411fee89.php:378]
+---------------------------------------------------------------
+[ 2019-08-29T10:03:57+08:00 ] 172.26.2.167 GET local.hqy.com/v1/organization/index.html
+[运行时间：0.313140s] [吞吐率：3.19req/s] [内存消耗：1,479.04kb] [文件加载：45]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/system/menu.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->index[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/organization/index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T10:03:58+08:00 ] 172.26.2.167 GET local.hqy.com/static/assets/components/bootstrap-select/css/bootstrap-select.css.map
+[运行时间：0.164539s] [吞吐率：6.08req/s] [内存消耗：1,023.53kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'components',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'select' => 'css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T10:04:00+08:00 ] 172.26.2.167 GET local.hqy.com/v1/organization/addorg.html
+[运行时间：0.969323s] [吞吐率：1.03req/s] [内存消耗：4,819.88kb] [文件加载：61]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'addorg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/organization/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->addorg[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/organization/addorg.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+  5 => 'saleUser',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.111918s ] mysql:host=47.105.48.137;dbname=huiqiyun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.078113s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `status` = 1 [ RunTime:0.279244s ]
+[ error ] [8]Array to string conversion[/opt/web/hqy/runtime/temp/bd3a3d8e49878e6bb1ab1b47411fee89.php:79]
+---------------------------------------------------------------
+[ 2019-08-29T10:05:22+08:00 ] 172.26.2.167 GET local.hqy.com/v1/organization/addorg.html
+[运行时间：0.814807s] [吞吐率：1.23req/s] [内存消耗：5,328.06kb] [文件加载：53]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'addorg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/organization/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->addorg[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.100242s ] mysql:host=47.105.48.137;dbname=huiqiyun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.070296s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `status` = 1 [ RunTime:0.280787s ]
+---------------------------------------------------------------
+[ 2019-08-29T10:06:47+08:00 ] 172.26.2.167 GET local.hqy.com/v1/organization/addorg.html
+[运行时间：0.927149s] [吞吐率：1.08req/s] [内存消耗：3,380.66kb] [文件加载：53]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'addorg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/organization/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->addorg[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.131471s ] mysql:host=47.105.48.137;dbname=huiqiyun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.091871s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `status` = 1 [ RunTime:0.331043s ]
+---------------------------------------------------------------
+[ 2019-08-29T10:06:59+08:00 ] 172.26.2.167 GET local.hqy.com/v1/organization/addorg.html
+[运行时间：1.013179s] [吞吐率：0.99req/s] [内存消耗：3,617.67kb] [文件加载：57]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'addorg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/organization/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->addorg[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/organization/addorg.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+  5 => 'saleUser',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.122971s ] mysql:host=47.105.48.137;dbname=huiqiyun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.082275s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `status` = 1 [ RunTime:0.312789s ]
+---------------------------------------------------------------
+[ 2019-08-29T10:06:59+08:00 ] 172.26.2.167 GET local.hqy.com/static/assets/components/bootstrap-select/css/bootstrap-select.css.map
+[运行时间：0.183809s] [吞吐率：5.44req/s] [内存消耗：1,023.53kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'components',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'select' => 'css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T10:14:47+08:00 ] 172.26.2.167 GET local.hqy.com/v1/organization/index.html
+[运行时间：0.315520s] [吞吐率：3.17req/s] [内存消耗：1,479.41kb] [文件加载：45]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/system/menu.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->index[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/organization/index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T10:14:48+08:00 ] 172.26.2.167 GET local.hqy.com/static/assets/components/bootstrap-select/css/bootstrap-select.css.map
+[运行时间：0.188165s] [吞吐率：5.31req/s] [内存消耗：1,023.53kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'components',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'select' => 'css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T10:14:50+08:00 ] 172.26.2.167 GET local.hqy.com/v1/organization/addorg.html
+[运行时间：1.022344s] [吞吐率：0.98req/s] [内存消耗：3,618.21kb] [文件加载：57]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'addorg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/organization/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->addorg[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/organization/addorg.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+  5 => 'saleUser',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.113176s ] mysql:host=47.105.48.137;dbname=huiqiyun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.075677s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `status` = 1 [ RunTime:0.303737s ]
+---------------------------------------------------------------
+[ 2019-08-29T10:14:50+08:00 ] 172.26.2.167 GET local.hqy.com/static/assets/components/bootstrap-select/css/bootstrap-select.css.map
+[运行时间：0.179312s] [吞吐率：5.58req/s] [内存消耗：1,023.53kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'components',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'select' => 'css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T10:14:56+08:00 ] 172.26.2.167 GET local.hqy.com/v1/organization/addorg.html?pid=0&title=&manage_uid=&weigh=1
+[运行时间：0.913281s] [吞吐率：1.09req/s] [内存消耗：3,812.80kb] [文件加载：57]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'addorg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/organization/addorg.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'pid' => '0',
+  'title' => '',
+  'manage_uid' => '',
+  'weigh' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->addorg[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/organization/addorg.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+  5 => 'saleUser',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.107782s ] mysql:host=47.105.48.137;dbname=huiqiyun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.073438s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `status` = 1 [ RunTime:0.261921s ]
+---------------------------------------------------------------
+[ 2019-08-29T10:14:58+08:00 ] 172.26.2.167 GET local.hqy.com/v1/organization/addorg.html
+[运行时间：0.900975s] [吞吐率：1.11req/s] [内存消耗：3,618.21kb] [文件加载：57]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'addorg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/organization/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->addorg[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/organization/addorg.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+  5 => 'saleUser',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.115022s ] mysql:host=47.105.48.137;dbname=huiqiyun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.079188s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `status` = 1 [ RunTime:0.279067s ]
+---------------------------------------------------------------
+[ 2019-08-29T10:14:58+08:00 ] 172.26.2.167 GET local.hqy.com/static/assets/components/bootstrap-select/css/bootstrap-select.css.map
+[运行时间：0.150891s] [吞吐率：6.63req/s] [内存消耗：1,023.53kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'components',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'select' => 'css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T10:15:44+08:00 ] 172.26.2.167 GET local.hqy.com/v1/organization/addorg.html
+[运行时间：1.028563s] [吞吐率：0.97req/s] [内存消耗：3,617.67kb] [文件加载：57]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'addorg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/organization/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->addorg[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/organization/addorg.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+  5 => 'saleUser',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.131627s ] mysql:host=47.105.48.137;dbname=huiqiyun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.089608s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `status` = 1 [ RunTime:0.352923s ]
+---------------------------------------------------------------
+[ 2019-08-29T10:15:44+08:00 ] 172.26.2.167 GET local.hqy.com/static/assets/components/bootstrap-select/css/bootstrap-select.css.map
+[运行时间：0.160036s] [吞吐率：6.25req/s] [内存消耗：1,023.53kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'components',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'select' => 'css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T10:16:48+08:00 ] 172.26.2.167 GET local.hqy.com/v1/organization/addorg.html
+[运行时间：0.862975s] [吞吐率：1.16req/s] [内存消耗：3,617.67kb] [文件加载：57]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'addorg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/organization/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->addorg[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/organization/addorg.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+  5 => 'saleUser',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.116443s ] mysql:host=47.105.48.137;dbname=huiqiyun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.085513s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `status` = 1 [ RunTime:0.290454s ]
+---------------------------------------------------------------
+[ 2019-08-29T10:16:49+08:00 ] 172.26.2.167 GET local.hqy.com/static/assets/components/bootstrap-select/css/bootstrap-select.css.map
+[运行时间：0.191597s] [吞吐率：5.22req/s] [内存消耗：1,023.53kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'components',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'select' => 'css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T10:18:27+08:00 ] 172.26.2.167 GET local.hqy.com/v1/organization/addorg.html
+[运行时间：0.963236s] [吞吐率：1.04req/s] [内存消耗：3,617.67kb] [文件加载：57]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'addorg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/organization/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->addorg[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/organization/addorg.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+  5 => 'saleUser',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.122345s ] mysql:host=47.105.48.137;dbname=huiqiyun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.085362s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `status` = 1 [ RunTime:0.292736s ]
+---------------------------------------------------------------
+[ 2019-08-29T10:18:27+08:00 ] 172.26.2.167 GET local.hqy.com/static/assets/components/bootstrap-select/css/bootstrap-select.css.map
+[运行时间：0.215305s] [吞吐率：4.64req/s] [内存消耗：1,023.53kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'components',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'select' => 'css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T14:22:13+08:00 ] 172.26.2.167 GET local.hqy.com/v1/organization/addorg.html
+[运行时间：0.991745s] [吞吐率：1.01req/s] [内存消耗：3,620.03kb] [文件加载：57]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'addorg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/organization/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->addorg[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/organization/addorg.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+  5 => 'saleUser',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.120483s ] mysql:host=47.105.48.137;dbname=huiqiyun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.083224s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `status` = 1 [ RunTime:0.327413s ]
+---------------------------------------------------------------
+[ 2019-08-29T14:22:13+08:00 ] 172.26.2.167 GET local.hqy.com/static/assets/components/bootstrap-select/css/bootstrap-select.css.map
+[运行时间：0.181911s] [吞吐率：5.50req/s] [内存消耗：1,023.53kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'components',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'select' => 'css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T14:22:47+08:00 ] 172.26.2.167 GET local.hqy.com/v1/organization/index.html
+[运行时间：0.322342s] [吞吐率：3.10req/s] [内存消耗：1,481.81kb] [文件加载：45]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/system/menu.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->index[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/organization/index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T14:22:48+08:00 ] 172.26.2.167 GET local.hqy.com/static/assets/components/bootstrap-select/css/bootstrap-select.css.map
+[运行时间：0.280776s] [吞吐率：3.56req/s] [内存消耗：1,023.53kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'components',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'select' => 'css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T14:22:50+08:00 ] 172.26.2.167 GET local.hqy.com/v1/organization/addorg.html
+[运行时间：0.965266s] [吞吐率：1.04req/s] [内存消耗：3,619.57kb] [文件加载：57]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'addorg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/organization/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->addorg[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/organization/addorg.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+  5 => 'saleUser',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.121530s ] mysql:host=47.105.48.137;dbname=huiqiyun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.082655s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `status` = 1 [ RunTime:0.291199s ]
+---------------------------------------------------------------
+[ 2019-08-29T14:22:51+08:00 ] 172.26.2.167 GET local.hqy.com/static/assets/components/bootstrap-select/css/bootstrap-select.css.map
+[运行时间：0.169939s] [吞吐率：5.88req/s] [内存消耗：1,023.53kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'components',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'select' => 'css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T14:23:41+08:00 ] 172.26.2.167 GET local.hqy.com/v1/organization/index.html
+[运行时间：0.249561s] [吞吐率：4.01req/s] [内存消耗：1,481.81kb] [文件加载：45]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/system/menu.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->index[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/organization/index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T14:23:41+08:00 ] 172.26.2.167 GET local.hqy.com/static/assets/components/bootstrap-select/css/bootstrap-select.css.map
+[运行时间：0.182448s] [吞吐率：5.48req/s] [内存消耗：1,023.53kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'components',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'select' => 'css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T14:23:42+08:00 ] 172.26.2.167 GET local.hqy.com/v1/organization/index.html
+[运行时间：0.283091s] [吞吐率：3.53req/s] [内存消耗：1,481.81kb] [文件加载：45]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/system/menu.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->index[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/organization/index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T14:23:43+08:00 ] 172.26.2.167 GET local.hqy.com/static/assets/components/bootstrap-select/css/bootstrap-select.css.map
+[运行时间：0.234710s] [吞吐率：4.26req/s] [内存消耗：1,023.53kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'components',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'select' => 'css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T14:23:45+08:00 ] 172.26.2.167 GET local.hqy.com/v1/organization/addorg.html
+[运行时间：0.889915s] [吞吐率：1.12req/s] [内存消耗：3,619.57kb] [文件加载：57]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'addorg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/organization/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->addorg[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/organization/addorg.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+  5 => 'saleUser',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.136996s ] mysql:host=47.105.48.137;dbname=huiqiyun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.077538s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `status` = 1 [ RunTime:0.271840s ]
+---------------------------------------------------------------
+[ 2019-08-29T14:23:45+08:00 ] 172.26.2.167 GET local.hqy.com/static/assets/components/bootstrap-select/css/bootstrap-select.css.map
+[运行时间：0.142161s] [吞吐率：7.03req/s] [内存消耗：1,023.53kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'components',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'select' => 'css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T14:24:09+08:00 ] 172.26.2.167 GET local.hqy.com/v1/organization/index.html
+[运行时间：0.224991s] [吞吐率：4.44req/s] [内存消耗：1,481.81kb] [文件加载：45]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/system/menu.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->index[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/organization/index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T14:24:09+08:00 ] 172.26.2.167 GET local.hqy.com/static/assets/components/bootstrap-select/css/bootstrap-select.css.map
+[运行时间：0.155059s] [吞吐率：6.45req/s] [内存消耗：1,023.53kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'components',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'select' => 'css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T14:24:11+08:00 ] 172.26.2.167 GET local.hqy.com/v1/organization/addorg.html
+[运行时间：0.930738s] [吞吐率：1.07req/s] [内存消耗：3,619.57kb] [文件加载：57]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'addorg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/organization/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->addorg[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/organization/addorg.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+  5 => 'saleUser',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.112246s ] mysql:host=47.105.48.137;dbname=huiqiyun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.079009s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `status` = 1 [ RunTime:0.284716s ]
+---------------------------------------------------------------
+[ 2019-08-29T14:24:12+08:00 ] 172.26.2.167 GET local.hqy.com/static/assets/components/bootstrap-select/css/bootstrap-select.css.map
+[运行时间：0.166316s] [吞吐率：6.01req/s] [内存消耗：1,023.53kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'components',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'select' => 'css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T14:24:43+08:00 ] 172.26.2.167 GET local.hqy.com/v1/organization/index.html
+[运行时间：0.269524s] [吞吐率：3.71req/s] [内存消耗：1,481.81kb] [文件加载：45]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/system/menu.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->index[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/organization/index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T14:24:43+08:00 ] 172.26.2.167 GET local.hqy.com/static/assets/components/bootstrap-select/css/bootstrap-select.css.map
+[运行时间：0.186429s] [吞吐率：5.36req/s] [内存消耗：1,023.53kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'components',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'select' => 'css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T14:24:45+08:00 ] 172.26.2.167 GET local.hqy.com/v1/organization/addorg.html
+[运行时间：1.126709s] [吞吐率：0.89req/s] [内存消耗：3,619.57kb] [文件加载：57]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'addorg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/organization/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->addorg[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/organization/addorg.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+  5 => 'saleUser',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.123594s ] mysql:host=47.105.48.137;dbname=huiqiyun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.085044s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `status` = 1 [ RunTime:0.318870s ]
+---------------------------------------------------------------
+[ 2019-08-29T14:24:46+08:00 ] 172.26.2.167 GET local.hqy.com/static/assets/components/bootstrap-select/css/bootstrap-select.css.map
+[运行时间：0.172606s] [吞吐率：5.79req/s] [内存消耗：1,023.53kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'components',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'select' => 'css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T14:24:56+08:00 ] 172.26.2.167 POST local.hqy.com/v1/organization/addorg.html
+[运行时间：0.186116s] [吞吐率：5.37req/s] [内存消耗：1,280.50kb] [文件加载：41]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'addorg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/organization/addorg.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://local.hqy.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '100',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+)
+[ info ] [ PARAM ] array (
+  'data' => 'pid=0&title=%E7%BD%91%E7%BB%9C%E9%83%A8&manage_uid=1392&weigh=1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->addorg[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T15:05:46+08:00 ] 172.26.2.167 POST local.hqy.com/v1/organization/addorg.html
+[运行时间：0.188164s] [吞吐率：5.31req/s] [内存消耗：1,284.66kb] [文件加载：42]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'addorg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/organization/addorg.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://local.hqy.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '100',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+)
+[ info ] [ PARAM ] array (
+  'data' => 'pid=0&title=%E7%BD%91%E7%BB%9C%E9%83%A8&manage_uid=1392&weigh=1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->addorg[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T15:38:12+08:00 ] 172.26.2.167 POST local.hqy.com/v1/organization/addorg.html
+[运行时间：0.621938s] [吞吐率：1.61req/s] [内存消耗：2,370.11kb] [文件加载：51]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'addorg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/organization/addorg.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://local.hqy.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '100',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+)
+[ info ] [ PARAM ] array (
+  'data' => 'pid=0&title=%E7%BD%91%E7%BB%9C%E9%83%A8&manage_uid=1392&weigh=1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->addorg[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.119995s ] mysql:host=47.105.48.137;dbname=huiqiyun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_organization` [ RunTime:0.080824s ]
+[ sql ] [ SQL ] SELECT `id` FROM `h_organization` WHERE  `title` = '网络部'  AND `pid` = 0 LIMIT 1 [ RunTime:0.081113s ]
+---------------------------------------------------------------
+[ 2019-08-29T16:50:16+08:00 ] 172.26.2.167 POST local.hqy.com/v1/organization/addorg.html
+[运行时间：0.380370s] [吞吐率：2.63req/s] [内存消耗：2,343.37kb] [文件加载：54]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'addorg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/organization/addorg.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://local.hqy.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '100',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+)
+[ info ] [ PARAM ] array (
+  'data' => 'pid=0&title=%E7%BD%91%E7%BB%9C%E9%83%A8&manage_uid=1392&weigh=1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->addorg[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]method not exist:think\db\Query->instance[/opt/web/hqy/thinkphp/library/think/db/Query.php:103]
+---------------------------------------------------------------
+[ 2019-08-29T16:50:57+08:00 ] 172.26.2.167 POST local.hqy.com/v1/organization/addorg.html
+[运行时间：0.328768s] [吞吐率：3.04req/s] [内存消耗：2,342.60kb] [文件加载：54]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'addorg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/organization/addorg.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://local.hqy.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '100',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+)
+[ info ] [ PARAM ] array (
+  'data' => 'pid=0&title=%E7%BD%91%E7%BB%9C%E9%83%A8&manage_uid=1392&weigh=1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->addorg[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]method not exist:think\db\Query->instance[/opt/web/hqy/thinkphp/library/think/db/Query.php:103]
+---------------------------------------------------------------
+[ 2019-08-29T16:51:15+08:00 ] 172.26.2.167 POST local.hqy.com/v1/organization/addorg.html
+[运行时间：0.333847s] [吞吐率：3.00req/s] [内存消耗：2,342.31kb] [文件加载：54]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'addorg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/organization/addorg.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://local.hqy.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '100',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+)
+[ info ] [ PARAM ] array (
+  'data' => 'pid=0&title=%E7%BD%91%E7%BB%9C%E9%83%A8&manage_uid=1392&weigh=1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->addorg[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]method not exist:think\db\Query->instance[/opt/web/hqy/thinkphp/library/think/db/Query.php:103]
+---------------------------------------------------------------
+[ 2019-08-29T16:51:54+08:00 ] 172.26.2.167 POST local.hqy.com/v1/organization/addorg.html
+[运行时间：0.225917s] [吞吐率：4.43req/s] [内存消耗：2,342.13kb] [文件加载：54]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'addorg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/organization/addorg.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://local.hqy.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '100',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+)
+[ info ] [ PARAM ] array (
+  'data' => 'pid=0&title=%E7%BD%91%E7%BB%9C%E9%83%A8&manage_uid=1392&weigh=1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->addorg[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]method not exist:think\db\Query->instance[/opt/web/hqy/thinkphp/library/think/db/Query.php:103]
+---------------------------------------------------------------
+[ 2019-08-29T16:52:05+08:00 ] 172.26.2.167 POST local.hqy.com/v1/organization/addorg.html
+[运行时间：0.226432s] [吞吐率：4.42req/s] [内存消耗：2,211.55kb] [文件加载：50]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'addorg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/organization/addorg.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://local.hqy.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '100',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+)
+[ info ] [ PARAM ] array (
+  'data' => 'pid=0&title=%E7%BD%91%E7%BB%9C%E9%83%A8&manage_uid=1392&weigh=1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->addorg[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-29T16:53:20+08:00 ] 172.26.2.167 POST local.hqy.com/v1/organization/addorg.html
+[运行时间：1.133611s] [吞吐率：0.88req/s] [内存消耗：3,419.99kb] [文件加载：55]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'addorg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/organization/addorg.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://local.hqy.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '100',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+)
+[ info ] [ PARAM ] array (
+  'data' => 'pid=0&title=%E7%BD%91%E7%BB%9C%E9%83%A8&manage_uid=1392&weigh=1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->addorg[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.119425s ] mysql:host=47.105.48.137;dbname=huiqiyun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_organization` [ RunTime:0.080389s ]
+[ sql ] [ SQL ] SELECT `id` FROM `h_organization` WHERE  `title` = '网络部'  AND `pid` = 0 LIMIT 1 [ RunTime:0.078714s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.079733s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `status` = 1 [ RunTime:0.315768s ]
+---------------------------------------------------------------
+[ 2019-08-29T16:55:25+08:00 ] 172.26.2.167 POST local.hqy.com/v1/organization/addorg.html
+[运行时间：0.987107s] [吞吐率：1.01req/s] [内存消耗：3,403.98kb] [文件加载：55]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'organization',
+    2 => 'addorg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/organization/addorg.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://local.hqy.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '100',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+)
+[ info ] [ PARAM ] array (
+  'data' => 'pid=0&title=%E7%BD%91%E7%BB%9C%E9%83%A8&manage_uid=1392&weigh=1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\organization->addorg[ /opt/web/hqy/application/v1/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.104951s ] mysql:host=47.105.48.137;dbname=huiqiyun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_organization` [ RunTime:0.070802s ]
+[ sql ] [ SQL ] SELECT `id` FROM `h_organization` WHERE  `title` = '网络部'  AND `pid` = 0 LIMIT 1 [ RunTime:0.069569s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.072887s ]
+[ sql ] [ SQL ] SELECT * FROM `users` WHERE  `status` = 1 [ RunTime:0.285065s ]

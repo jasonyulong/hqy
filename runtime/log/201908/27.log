@@ -1,0 +1,1306 @@
+---------------------------------------------------------------
+[ 2019-08-27T10:37:43+08:00 ] 172.26.2.167 GET local.hqy.com/v1/system/menu.html
+[运行时间：1.100000s] [吞吐率：0.91req/s] [内存消耗：3,425.02kb] [文件加载：64]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'system',
+    2 => 'menu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\system->menu[ /opt/web/hqy/application/v1/controller/System.php ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/system/menu.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+  5 => 'menuList',
+  6 => 'status',
+  7 => 'type',
+  8 => 'data',
+  9 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.100714s ] mysql:host=47.105.48.137;dbname=huiqiyun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_menus` [ RunTime:0.067911s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `h_menus` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.068401s ]
+[ sql ] [ SQL ] SELECT `id`,`type`,`pid`,`title`,`url`,`icon`,`weigh`,`status`,`createtime`,`remark` FROM `h_menus` WHERE  `status` = 1 ORDER BY `weigh` DESC LIMIT 0,20 [ RunTime:0.069117s ]
+[ sql ] [ SQL ] SELECT * FROM `h_menus` ORDER BY `weigh` DESC [ RunTime:0.140101s ]
+---------------------------------------------------------------
+[ 2019-08-27T10:37:44+08:00 ] 172.26.2.167 GET local.hqy.com/static/assets/dist/font/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDI.woff2
+[运行时间：0.201344s] [吞吐率：4.97req/s] [内存消耗：1,026.27kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'dist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/static/assets/dist/css/fontcss.css',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'origin' => 'http://local.hqy.com',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'font' => '6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDI.woff2',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-27T11:19:12+08:00 ] 172.26.2.167 GET local.hqy.com/v1/system/addmenu.html
+[运行时间：0.334365s] [吞吐率：2.99req/s] [内存消耗：1,426.22kb] [文件加载：45]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'system',
+    2 => 'addmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/system/menu.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\system->addmenu[ /opt/web/hqy/application/v1/controller/System.php ]
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/system/addmenu.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-27T15:18:52+08:00 ] 172.26.2.167 GET local.hqy.com/v1/system/menu.html
+[运行时间：1.186038s] [吞吐率：0.84req/s] [内存消耗：3,425.11kb] [文件加载：64]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'system',
+    2 => 'menu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\system->menu[ /opt/web/hqy/application/v1/controller/System.php ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/system/menu.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+  5 => 'menuList',
+  6 => 'status',
+  7 => 'type',
+  8 => 'data',
+  9 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.112231s ] mysql:host=47.105.48.137;dbname=huiqiyun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_menus` [ RunTime:0.078132s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `h_menus` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.077248s ]
+[ sql ] [ SQL ] SELECT `id`,`type`,`pid`,`title`,`url`,`icon`,`weigh`,`status`,`createtime`,`remark` FROM `h_menus` WHERE  `status` = 1 ORDER BY `weigh` DESC LIMIT 0,20 [ RunTime:0.082755s ]
+[ sql ] [ SQL ] SELECT * FROM `h_menus` ORDER BY `weigh` DESC [ RunTime:0.157861s ]
+---------------------------------------------------------------
+[ 2019-08-27T15:18:52+08:00 ] 172.26.2.167 GET local.hqy.com/static/assets/dist/font/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDI.woff2
+[运行时间：0.160079s] [吞吐率：6.25req/s] [内存消耗：1,026.27kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'dist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/static/assets/dist/css/fontcss.css',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'origin' => 'http://local.hqy.com',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'font' => '6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDI.woff2',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-27T15:20:07+08:00 ] 172.26.2.167 GET local.hqy.com/v1/system/menu.html?page=24
+[运行时间：1.143657s] [吞吐率：0.87req/s] [内存消耗：3,406.54kb] [文件加载：64]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'system',
+    2 => 'menu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/system/menu.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '24',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\system->menu[ /opt/web/hqy/application/v1/controller/System.php ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/system/menu.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+  5 => 'menuList',
+  6 => 'status',
+  7 => 'type',
+  8 => 'data',
+  9 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.156778s ] mysql:host=47.105.48.137;dbname=huiqiyun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_menus` [ RunTime:0.076866s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `h_menus` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.079560s ]
+[ sql ] [ SQL ] SELECT `id`,`type`,`pid`,`title`,`url`,`icon`,`weigh`,`status`,`createtime`,`remark` FROM `h_menus` WHERE  `status` = 1 ORDER BY `weigh` DESC LIMIT 460,20 [ RunTime:0.079494s ]
+[ sql ] [ SQL ] SELECT * FROM `h_menus` ORDER BY `weigh` DESC [ RunTime:0.155948s ]
+---------------------------------------------------------------
+[ 2019-08-27T15:20:07+08:00 ] 172.26.2.167 GET local.hqy.com/static/assets/dist/font/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDI.woff2
+[运行时间：0.176888s] [吞吐率：5.65req/s] [内存消耗：1,026.27kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'dist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/static/assets/dist/css/fontcss.css',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'origin' => 'http://local.hqy.com',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'font' => '6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDI.woff2',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-27T15:20:11+08:00 ] 172.26.2.167 GET local.hqy.com/v1/system/menu.html?page=2
+[运行时间：1.114027s] [吞吐率：0.90req/s] [内存消耗：3,425.48kb] [文件加载：64]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'system',
+    2 => 'menu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/system/menu.html?page=24',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\system->menu[ /opt/web/hqy/application/v1/controller/System.php ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/system/menu.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+  5 => 'menuList',
+  6 => 'status',
+  7 => 'type',
+  8 => 'data',
+  9 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.117567s ] mysql:host=47.105.48.137;dbname=huiqiyun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_menus` [ RunTime:0.081196s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `h_menus` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.079863s ]
+[ sql ] [ SQL ] SELECT `id`,`type`,`pid`,`title`,`url`,`icon`,`weigh`,`status`,`createtime`,`remark` FROM `h_menus` WHERE  `status` = 1 ORDER BY `weigh` DESC LIMIT 20,20 [ RunTime:0.079814s ]
+[ sql ] [ SQL ] SELECT * FROM `h_menus` ORDER BY `weigh` DESC [ RunTime:0.157405s ]
+---------------------------------------------------------------
+[ 2019-08-27T15:20:11+08:00 ] 172.26.2.167 GET local.hqy.com/static/assets/dist/font/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDI.woff2
+[运行时间：0.165516s] [吞吐率：6.04req/s] [内存消耗：1,026.27kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'dist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/static/assets/dist/css/fontcss.css',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'origin' => 'http://local.hqy.com',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'font' => '6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDI.woff2',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-27T15:20:16+08:00 ] 172.26.2.167 GET local.hqy.com/v1/system/menu.html?page=1
+[运行时间：1.014598s] [吞吐率：0.99req/s] [内存消耗：3,425.27kb] [文件加载：64]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'system',
+    2 => 'menu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/system/menu.html?page=2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\system->menu[ /opt/web/hqy/application/v1/controller/System.php ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/system/menu.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+  5 => 'menuList',
+  6 => 'status',
+  7 => 'type',
+  8 => 'data',
+  9 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.110915s ] mysql:host=47.105.48.137;dbname=huiqiyun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_menus` [ RunTime:0.075738s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `h_menus` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.076137s ]
+[ sql ] [ SQL ] SELECT `id`,`type`,`pid`,`title`,`url`,`icon`,`weigh`,`status`,`createtime`,`remark` FROM `h_menus` WHERE  `status` = 1 ORDER BY `weigh` DESC LIMIT 0,20 [ RunTime:0.082817s ]
+[ sql ] [ SQL ] SELECT * FROM `h_menus` ORDER BY `weigh` DESC [ RunTime:0.158969s ]
+---------------------------------------------------------------
+[ 2019-08-27T15:20:16+08:00 ] 172.26.2.167 GET local.hqy.com/static/assets/dist/font/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDI.woff2
+[运行时间：0.139434s] [吞吐率：7.17req/s] [内存消耗：1,026.27kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'dist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/static/assets/dist/css/fontcss.css',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'origin' => 'http://local.hqy.com',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'font' => '6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDI.woff2',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-27T17:30:41+08:00 ] 172.26.2.167 GET local.hqy.com/v1/system/menu.html?page=1
+[运行时间：1.173961s] [吞吐率：0.85req/s] [内存消耗：3,425.65kb] [文件加载：64]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'system',
+    2 => 'menu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/system/menu.html?page=2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\system->menu[ /opt/web/hqy/application/v1/controller/System.php ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/system/menu.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+  5 => 'menuList',
+  6 => 'status',
+  7 => 'type',
+  8 => 'data',
+  9 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.097457s ] mysql:host=47.105.48.137;dbname=huiqiyun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_menus` [ RunTime:0.066238s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `h_menus` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.064840s ]
+[ sql ] [ SQL ] SELECT `id`,`type`,`pid`,`title`,`url`,`icon`,`weigh`,`status`,`createtime`,`remark` FROM `h_menus` WHERE  `status` = 1 ORDER BY `weigh` DESC LIMIT 0,20 [ RunTime:0.072035s ]
+[ sql ] [ SQL ] SELECT * FROM `h_menus` ORDER BY `weigh` DESC [ RunTime:0.140395s ]
+---------------------------------------------------------------
+[ 2019-08-27T17:30:41+08:00 ] 172.26.2.167 GET local.hqy.com/v1/system/addmenu.html
+[运行时间：0.350409s] [吞吐率：2.85req/s] [内存消耗：1,427.72kb] [文件加载：45]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'system',
+    2 => 'addmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/system/menu.html?page=1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\system->addmenu[ /opt/web/hqy/application/v1/controller/System.php ]
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/system/addmenu.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-27T17:30:41+08:00 ] 172.26.2.167 GET local.hqy.com/static/assets/dist/font/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDI.woff2
+[运行时间：0.190882s] [吞吐率：5.24req/s] [内存消耗：1,026.27kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'dist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/static/assets/dist/css/fontcss.css',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'origin' => 'http://local.hqy.com',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'font' => '6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDI.woff2',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-27T17:30:42+08:00 ] 172.26.2.167 GET local.hqy.com/v1/system/addmenu.html
+[运行时间：0.221666s] [吞吐率：4.51req/s] [内存消耗：1,427.72kb] [文件加载：45]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'system',
+    2 => 'addmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/system/menu.html?page=1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\system->addmenu[ /opt/web/hqy/application/v1/controller/System.php ]
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/system/addmenu.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-27T17:31:35+08:00 ] 172.26.2.167 GET local.hqy.com/v1/system/addmenu.html
+[运行时间：0.217907s] [吞吐率：4.59req/s] [内存消耗：1,428.18kb] [文件加载：45]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'system',
+    2 => 'addmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/system/menu.html?page=1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\system->addmenu[ /opt/web/hqy/application/v1/controller/System.php ]
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/system/addmenu.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-27T17:34:47+08:00 ] 172.26.2.167 GET local.hqy.com/v1/system/index2.html
+[运行时间：0.237819s] [吞吐率：4.20req/s] [内存消耗：1,343.92kb] [文件加载：45]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'system',
+    2 => 'index2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/system/menu.html?page=1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-27T17:34:54+08:00 ] 172.26.2.167 GET local.hqy.com/v1/system/menu.html?page=1
+[运行时间：1.130102s] [吞吐率：0.88req/s] [内存消耗：3,425.19kb] [文件加载：64]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'system',
+    2 => 'menu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/system/menu.html?page=2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\system->menu[ /opt/web/hqy/application/v1/controller/System.php ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/system/menu.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+  5 => 'menuList',
+  6 => 'status',
+  7 => 'type',
+  8 => 'data',
+  9 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.111457s ] mysql:host=47.105.48.137;dbname=huiqiyun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_menus` [ RunTime:0.078311s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `h_menus` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.074887s ]
+[ sql ] [ SQL ] SELECT `id`,`type`,`pid`,`title`,`url`,`icon`,`weigh`,`status`,`createtime`,`remark` FROM `h_menus` WHERE  `status` = 1 ORDER BY `weigh` DESC LIMIT 0,20 [ RunTime:0.078251s ]
+[ sql ] [ SQL ] SELECT * FROM `h_menus` ORDER BY `weigh` DESC [ RunTime:0.152240s ]
+---------------------------------------------------------------
+[ 2019-08-27T17:34:54+08:00 ] 172.26.2.167 GET local.hqy.com/static/assets/dist/font/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDI.woff2
+[运行时间：0.175385s] [吞吐率：5.70req/s] [内存消耗：1,026.27kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'dist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/static/assets/dist/css/fontcss.css',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'origin' => 'http://local.hqy.com',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'font' => '6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDI.woff2',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-27T17:34:57+08:00 ] 172.26.2.167 GET local.hqy.com/v1/system/menu.html?page=1
+[运行时间：1.132203s] [吞吐率：0.88req/s] [内存消耗：3,425.65kb] [文件加载：64]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'system',
+    2 => 'menu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/system/menu.html?page=2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\system->menu[ /opt/web/hqy/application/v1/controller/System.php ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/system/menu.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+  5 => 'menuList',
+  6 => 'status',
+  7 => 'type',
+  8 => 'data',
+  9 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.120722s ] mysql:host=47.105.48.137;dbname=huiqiyun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_menus` [ RunTime:0.082548s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `h_menus` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.082395s ]
+[ sql ] [ SQL ] SELECT `id`,`type`,`pid`,`title`,`url`,`icon`,`weigh`,`status`,`createtime`,`remark` FROM `h_menus` WHERE  `status` = 1 ORDER BY `weigh` DESC LIMIT 0,20 [ RunTime:0.084073s ]
+[ sql ] [ SQL ] SELECT * FROM `h_menus` ORDER BY `weigh` DESC [ RunTime:0.168977s ]
+---------------------------------------------------------------
+[ 2019-08-27T17:34:57+08:00 ] 172.26.2.167 GET local.hqy.com/static/assets/dist/font/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDI.woff2
+[运行时间：0.166898s] [吞吐率：5.99req/s] [内存消耗：1,026.27kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'dist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/static/assets/dist/css/fontcss.css',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'origin' => 'http://local.hqy.com',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'font' => '6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDI.woff2',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-27T17:34:59+08:00 ] 172.26.2.167 GET local.hqy.com/v1/system/menu.html?page=2
+[运行时间：1.089780s] [吞吐率：0.92req/s] [内存消耗：3,425.41kb] [文件加载：64]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'system',
+    2 => 'menu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/system/menu.html?page=1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\system->menu[ /opt/web/hqy/application/v1/controller/System.php ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/system/menu.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+  5 => 'menuList',
+  6 => 'status',
+  7 => 'type',
+  8 => 'data',
+  9 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.116368s ] mysql:host=47.105.48.137;dbname=huiqiyun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_menus` [ RunTime:0.077761s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `h_menus` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.077449s ]
+[ sql ] [ SQL ] SELECT `id`,`type`,`pid`,`title`,`url`,`icon`,`weigh`,`status`,`createtime`,`remark` FROM `h_menus` WHERE  `status` = 1 ORDER BY `weigh` DESC LIMIT 20,20 [ RunTime:0.078915s ]
+[ sql ] [ SQL ] SELECT * FROM `h_menus` ORDER BY `weigh` DESC [ RunTime:0.163457s ]
+---------------------------------------------------------------
+[ 2019-08-27T17:35:00+08:00 ] 172.26.2.167 GET local.hqy.com/static/assets/dist/font/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDI.woff2
+[运行时间：0.148329s] [吞吐率：6.74req/s] [内存消耗：1,026.27kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'dist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/static/assets/dist/css/fontcss.css',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'origin' => 'http://local.hqy.com',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'font' => '6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDI.woff2',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-27T17:35:06+08:00 ] 172.26.2.167 GET local.hqy.com/v1/system/menu.html?page=2
+[运行时间：0.925743s] [吞吐率：1.08req/s] [内存消耗：3,425.87kb] [文件加载：64]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'system',
+    2 => 'menu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/system/menu.html?page=1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\system->menu[ /opt/web/hqy/application/v1/controller/System.php ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/system/menu.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+  5 => 'menuList',
+  6 => 'status',
+  7 => 'type',
+  8 => 'data',
+  9 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.094227s ] mysql:host=47.105.48.137;dbname=huiqiyun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_menus` [ RunTime:0.066480s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `h_menus` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.064283s ]
+[ sql ] [ SQL ] SELECT `id`,`type`,`pid`,`title`,`url`,`icon`,`weigh`,`status`,`createtime`,`remark` FROM `h_menus` WHERE  `status` = 1 ORDER BY `weigh` DESC LIMIT 20,20 [ RunTime:0.069264s ]
+[ sql ] [ SQL ] SELECT * FROM `h_menus` ORDER BY `weigh` DESC [ RunTime:0.133758s ]
+---------------------------------------------------------------
+[ 2019-08-27T17:35:06+08:00 ] 172.26.2.167 GET local.hqy.com/static/assets/dist/font/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDI.woff2
+[运行时间：0.150157s] [吞吐率：6.66req/s] [内存消耗：1,026.27kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'dist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/static/assets/dist/css/fontcss.css',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'origin' => 'http://local.hqy.com',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'font' => '6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDI.woff2',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-27T17:35:18+08:00 ] 172.26.2.167 GET local.hqy.com/v1/system/addmenu.html
+[运行时间：0.240163s] [吞吐率：4.16req/s] [内存消耗：1,427.72kb] [文件加载：45]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'system',
+    2 => 'addmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/system/menu.html?page=2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\system->addmenu[ /opt/web/hqy/application/v1/controller/System.php ]
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/system/addmenu.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-27T17:40:20+08:00 ] 172.26.2.167 GET local.hqy.com/v1/system/addmenu.html
+[运行时间：0.278998s] [吞吐率：3.58req/s] [内存消耗：1,427.72kb] [文件加载：45]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'system',
+    2 => 'addmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/system/menu.html?page=2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\system->addmenu[ /opt/web/hqy/application/v1/controller/System.php ]
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/system/addmenu.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-27T17:40:26+08:00 ] 172.26.2.167 GET local.hqy.com/v1/system/addmenu.html
+[运行时间：0.264068s] [吞吐率：3.79req/s] [内存消耗：1,427.72kb] [文件加载：45]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'system',
+    2 => 'addmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/system/menu.html?page=2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\system->addmenu[ /opt/web/hqy/application/v1/controller/System.php ]
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/system/addmenu.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-27T17:40:32+08:00 ] 172.26.2.167 GET local.hqy.com/v1/system/addmenu.html
+[运行时间：0.267888s] [吞吐率：3.73req/s] [内存消耗：1,427.72kb] [文件加载：45]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'system',
+    2 => 'addmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/system/menu.html?page=2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\system->addmenu[ /opt/web/hqy/application/v1/controller/System.php ]
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/system/addmenu.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-27T17:40:37+08:00 ] 172.26.2.167 GET local.hqy.com/v1/system/addmenu.html
+[运行时间：0.195735s] [吞吐率：5.11req/s] [内存消耗：1,427.72kb] [文件加载：45]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'system',
+    2 => 'addmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=dm91vgql2t276o4ov4ll7hecuu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/system/menu.html?page=2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\system->addmenu[ /opt/web/hqy/application/v1/controller/System.php ]
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/system/addmenu.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+) ]
+[ info ] [ LOG ] INIT File

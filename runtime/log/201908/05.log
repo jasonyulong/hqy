@@ -1,0 +1,1787 @@
+---------------------------------------------------------------
+[ 2019-08-05T11:44:34+08:00 ] 172.26.2.190 GET local.hqy.com/
+[运行时间：1.998918s] [吞吐率：0.50req/s] [内存消耗：1,892.06kb] [文件加载：63]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:/v1/index/index.html[/opt/web/hqy/thinkphp/library/think/view/driver/Think.php:82]
+---------------------------------------------------------------
+[ 2019-08-05T11:44:51+08:00 ] 172.26.2.190 GET local.hqy.com/
+[运行时间：0.344123s] [吞吐率：2.91req/s] [内存消耗：1,892.51kb] [文件加载：63]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:/v1/index/index.html[/opt/web/hqy/thinkphp/library/think/view/driver/Think.php:82]
+---------------------------------------------------------------
+[ 2019-08-05T11:46:17+08:00 ] 172.26.2.190 GET local.hqy.com/
+[运行时间：0.228536s] [吞吐率：4.38req/s] [内存消耗：1,892.98kb] [文件加载：63]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /opt/web/hqy/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:/v1/index/index.html[/opt/web/hqy/thinkphp/library/think/view/driver/Think.php:82]
+---------------------------------------------------------------
+[ 2019-08-05T11:46:19+08:00 ] 172.26.2.190 GET local.hqy.com/
+[运行时间：0.232666s] [吞吐率：4.30req/s] [内存消耗：1,892.98kb] [文件加载：63]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /opt/web/hqy/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:/v1/index/index.html[/opt/web/hqy/thinkphp/library/think/view/driver/Think.php:82]
+---------------------------------------------------------------
+[ 2019-08-05T11:46:36+08:00 ] 172.26.2.190 GET local.hqy.com/v1/index/index
+[运行时间：0.336476s] [吞吐率：2.97req/s] [内存消耗：1,873.66kb] [文件加载：63]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-05T11:46:36+08:00 ] 172.26.2.190 GET local.hqy.com/v1/login/index.html
+[运行时间：0.281040s] [吞吐率：3.56req/s] [内存消耗：2,060.44kb] [文件加载：63]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\v1\controller\Login->index[ /opt/web/hqy/application/v1/controller/Login.php ]
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-05T11:46:37+08:00 ] 172.26.2.190 GET local.hqy.com/static/assets/img/favicon.ico
+[运行时间：0.170150s] [吞吐率：5.88req/s] [内存消耗：1,611.13kb] [文件加载：55]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/login/index.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-05T11:46:41+08:00 ] 172.26.2.190 GET local.hqy.com/
+[运行时间：0.222253s] [吞吐率：4.50req/s] [内存消耗：1,893.22kb] [文件加载：63]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /opt/web/hqy/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:/v1/index/index.html[/opt/web/hqy/thinkphp/library/think/view/driver/Think.php:82]
+---------------------------------------------------------------
+[ 2019-08-05T11:47:42+08:00 ] 172.26.2.190 GET local.hqy.com/
+[运行时间：0.233637s] [吞吐率：4.28req/s] [内存消耗：1,893.22kb] [文件加载：63]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /opt/web/hqy/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:/v1/index/index.html[/opt/web/hqy/thinkphp/library/think/view/driver/Think.php:82]
+---------------------------------------------------------------
+[ 2019-08-05T11:48:48+08:00 ] 172.26.2.190 GET local.hqy.com/
+[运行时间：0.297573s] [吞吐率：3.36req/s] [内存消耗：1,789.78kb] [文件加载：58]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /opt/web/hqy/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-05T11:49:39+08:00 ] 172.26.2.190 GET local.hqy.com/
+[运行时间：0.334047s] [吞吐率：2.99req/s] [内存消耗：1,893.22kb] [文件加载：63]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /opt/web/hqy/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:/v1/index/index.html[/opt/web/hqy/thinkphp/library/think/view/driver/Think.php:82]
+---------------------------------------------------------------
+[ 2019-08-05T13:43:07+08:00 ] 172.26.2.190 GET local.hqy.com/
+[运行时间：0.392718s] [吞吐率：2.55req/s] [内存消耗：1,893.22kb] [文件加载：63]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /opt/web/hqy/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:/v1/index/index.html[/opt/web/hqy/thinkphp/library/think/view/driver/Think.php:82]
+---------------------------------------------------------------
+[ 2019-08-05T13:44:33+08:00 ] 172.26.2.190 GET local.hqy.com/
+[运行时间：0.343385s] [吞吐率：2.91req/s] [内存消耗：1,840.72kb] [文件加载：62]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /opt/web/hqy/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:/opt/web/hqy/public/../application/index/view/v1/index/index.html[/opt/web/hqy/thinkphp/library/think/view/driver/Think.php:82]
+---------------------------------------------------------------
+[ 2019-08-05T13:47:34+08:00 ] 172.26.2.190 GET local.hqy.com/
+[运行时间：0.357102s] [吞吐率：2.80req/s] [内存消耗：1,913.76kb] [文件加载：62]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /opt/web/hqy/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-05T13:54:48+08:00 ] 172.26.2.190 GET local.hqy.com/
+[运行时间：0.390252s] [吞吐率：2.56req/s] [内存消耗：1,913.66kb] [文件加载：62]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /opt/web/hqy/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-05T14:32:50+08:00 ] 172.26.2.190 GET local.hqy.com/
+[运行时间：0.255063s] [吞吐率：3.92req/s] [内存消耗：1,284.37kb] [文件加载：43]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-05T14:32:50+08:00 ] 172.26.2.190 GET local.hqy.com/v1/login/index.html
+[运行时间：0.292747s] [吞吐率：3.42req/s] [内存消耗：1,410.85kb] [文件加载：43]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\v1\controller\Login->index[ /opt/web/hqy/application/v1/controller/Login.php ]
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-05T14:49:57+08:00 ] 172.26.2.190 GET local.hqy.com/v1/index/index.html
+[运行时间：0.296738s] [吞吐率：3.37req/s] [内存消耗：1,217.93kb] [文件加载：40]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\v1\controller\Index->index[ /opt/web/hqy/application/v1/controller/Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-05T14:50:36+08:00 ] 172.26.2.190 GET local.hqy.com/v1/index/index.html
+[运行时间：0.183856s] [吞吐率：5.44req/s] [内存消耗：1,218.14kb] [文件加载：40]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\v1\controller\Index->index[ /opt/web/hqy/application/v1/controller/Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-05T14:51:29+08:00 ] 172.26.2.190 GET local.hqy.com/v1/index/index.html
+[运行时间：0.141216s] [吞吐率：7.08req/s] [内存消耗：1,218.17kb] [文件加载：40]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\v1\controller\Index->index[ /opt/web/hqy/application/v1/controller/Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-05T14:51:30+08:00 ] 172.26.2.190 GET local.hqy.com/v1/index/index.html
+[运行时间：0.154755s] [吞吐率：6.46req/s] [内存消耗：1,218.17kb] [文件加载：40]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\v1\controller\Index->index[ /opt/web/hqy/application/v1/controller/Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-05T14:51:30+08:00 ] 172.26.2.190 GET local.hqy.com/v1/index/index.html
+[运行时间：0.190801s] [吞吐率：5.24req/s] [内存消耗：1,218.17kb] [文件加载：40]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\v1\controller\Index->index[ /opt/web/hqy/application/v1/controller/Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-05T14:56:22+08:00 ] 172.26.2.190 GET local.hqy.com/v1/index/index.html
+[运行时间：0.158628s] [吞吐率：6.30req/s] [内存消耗：1,154.71kb] [文件加载：37]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\v1\controller\Index->index[ /opt/web/hqy/application/v1/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-05T16:49:22+08:00 ] 172.26.2.190 GET local.hqy.com/v1/index/index.html
+[运行时间：0.229864s] [吞吐率：4.35req/s] [内存消耗：1,266.79kb] [文件加载：44]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\v1\controller\Index->index[ /opt/web/hqy/application/v1/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Access to undeclared static property: app\v1\service\Home::$instance[/opt/web/hqy/application/v1/service/Home.php:24]
+---------------------------------------------------------------
+[ 2019-08-05T16:49:44+08:00 ] 172.26.2.190 GET local.hqy.com/v1/index/index.html
+[运行时间：0.225579s] [吞吐率：4.43req/s] [内存消耗：1,266.79kb] [文件加载：44]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\v1\controller\Index->index[ /opt/web/hqy/application/v1/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Access to undeclared static property: app\v1\service\Home::$instance[/opt/web/hqy/application/v1/service/Home.php:24]
+---------------------------------------------------------------
+[ 2019-08-05T16:50:17+08:00 ] 172.26.2.190 GET local.hqy.com/v1/index/index.html
+[运行时间：0.293920s] [吞吐率：3.40req/s] [内存消耗：1,315.80kb] [文件加载：46]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\v1\controller\Index->index[ /opt/web/hqy/application/v1/controller/Index.php ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+[ error ] [0]NOAUTH Authentication required.[/opt/web/hqy/thinkphp/library/think/cache/driver/Redis.php:61]
+---------------------------------------------------------------
+[ 2019-08-05T16:51:58+08:00 ] 172.26.2.190 GET local.hqy.com/v1/index/index.html
+[运行时间：0.350723s] [吞吐率：2.85req/s] [内存消耗：1,315.80kb] [文件加载：46]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\v1\controller\Index->index[ /opt/web/hqy/application/v1/controller/Index.php ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+[ error ] [0]NOAUTH Authentication required.[/opt/web/hqy/thinkphp/library/think/cache/driver/Redis.php:61]
+---------------------------------------------------------------
+[ 2019-08-05T16:52:00+08:00 ] 172.26.2.190 GET local.hqy.com/v1/index/index.html
+[运行时间：0.342108s] [吞吐率：2.92req/s] [内存消耗：1,315.80kb] [文件加载：46]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\v1\controller\Index->index[ /opt/web/hqy/application/v1/controller/Index.php ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+[ error ] [0]NOAUTH Authentication required.[/opt/web/hqy/thinkphp/library/think/cache/driver/Redis.php:61]
+---------------------------------------------------------------
+[ 2019-08-05T16:52:13+08:00 ] 172.26.2.190 GET local.hqy.com/v1/index/index.html
+[运行时间：0.257811s] [吞吐率：3.88req/s] [内存消耗：1,325.73kb] [文件加载：46]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\v1\controller\Index->index[ /opt/web/hqy/application/v1/controller/Index.php ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+[ error ] [0]NOAUTH Authentication required.[/opt/web/hqy/application/v1/service/Home.php:50]
+---------------------------------------------------------------
+[ 2019-08-05T16:53:05+08:00 ] 172.26.2.190 GET local.hqy.com/v1/index/index.html
+[运行时间：0.264047s] [吞吐率：3.79req/s] [内存消耗：1,322.67kb] [文件加载：47]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\v1\controller\Index->index[ /opt/web/hqy/application/v1/controller/Index.php ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined method think\cache\driver\Redis::hset()[/opt/web/hqy/application/v1/service/Home.php:50]
+---------------------------------------------------------------
+[ 2019-08-05T16:53:19+08:00 ] 172.26.2.190 GET local.hqy.com/v1/index/index.html
+[运行时间：0.276478s] [吞吐率：3.62req/s] [内存消耗：1,325.73kb] [文件加载：46]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\v1\controller\Index->index[ /opt/web/hqy/application/v1/controller/Index.php ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+[ error ] [0]NOAUTH Authentication required.[/opt/web/hqy/application/v1/service/Home.php:50]
+---------------------------------------------------------------
+[ 2019-08-05T17:04:53+08:00 ] 172.26.2.190 GET local.hqy.com/v1/index/index.html
+[运行时间：0.605056s] [吞吐率：1.65req/s] [内存消耗：1,599.10kb] [文件加载：51]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\v1\controller\Index->index[ /opt/web/hqy/application/v1/controller/Index.php ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: userInfo[/opt/web/hqy/runtime/temp/6dd79298889453df8675173df337f507.php:274]
+---------------------------------------------------------------
+[ 2019-08-05T17:05:53+08:00 ] 172.26.2.190 GET local.hqy.com/v1/index/index.html
+[运行时间：0.325191s] [吞吐率：3.08req/s] [内存消耗：1,224.27kb] [文件加载：42]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\v1\controller\Index->index[ /opt/web/hqy/application/v1/controller/Index.php ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-05T17:06:40+08:00 ] 172.26.2.190 GET local.hqy.com/v1/index/index.html
+[运行时间：0.367244s] [吞吐率：2.72req/s] [内存消耗：1,397.25kb] [文件加载：48]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\v1\controller\Index->index[ /opt/web/hqy/application/v1/controller/Index.php ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+[ error ] [2]Redis::hGet() expects exactly 2 parameters, 1 given[/opt/web/hqy/application/v1/service/Home.php:43]
+---------------------------------------------------------------
+[ 2019-08-05T17:08:22+08:00 ] 172.26.2.190 GET local.hqy.com/v1/index/index.html
+[运行时间：0.372234s] [吞吐率：2.69req/s] [内存消耗：1,224.28kb] [文件加载：42]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\v1\controller\Index->index[ /opt/web/hqy/application/v1/controller/Index.php ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-05T17:10:40+08:00 ] 172.26.2.190 GET local.hqy.com/v1/index/index.html
+[运行时间：0.328686s] [吞吐率：3.04req/s] [内存消耗：1,224.28kb] [文件加载：42]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\v1\controller\Index->index[ /opt/web/hqy/application/v1/controller/Index.php ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-05T17:10:47+08:00 ] 172.26.2.190 GET local.hqy.com/v1/index/index.html
+[运行时间：0.322682s] [吞吐率：3.10req/s] [内存消耗：1,225.33kb] [文件加载：42]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\v1\controller\Index->index[ /opt/web/hqy/application/v1/controller/Index.php ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-05T17:28:13+08:00 ] 172.26.2.190 GET local.hqy.com/v1/index/index.html
+[运行时间：0.369412s] [吞吐率：2.71req/s] [内存消耗：1,224.13kb] [文件加载：42]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\v1\controller\Index->index[ /opt/web/hqy/application/v1/controller/Index.php ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-05T17:28:30+08:00 ] 172.26.2.190 GET local.hqy.com/v1/index/index.html
+[运行时间：0.328327s] [吞吐率：3.05req/s] [内存消耗：1,225.33kb] [文件加载：42]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\v1\controller\Index->index[ /opt/web/hqy/application/v1/controller/Index.php ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-05T17:28:45+08:00 ] 172.26.2.190 GET local.hqy.com/v1/index/index.html
+[运行时间：0.298970s] [吞吐率：3.34req/s] [内存消耗：1,224.13kb] [文件加载：42]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\v1\controller\Index->index[ /opt/web/hqy/application/v1/controller/Index.php ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-05T17:29:19+08:00 ] 172.26.2.190 GET local.hqy.com/v1/index/index.html
+[运行时间：0.361474s] [吞吐率：2.77req/s] [内存消耗：1,224.28kb] [文件加载：42]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\v1\controller\Index->index[ /opt/web/hqy/application/v1/controller/Index.php ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-05T17:29:32+08:00 ] 172.26.2.190 GET local.hqy.com/v1/index/index.html
+[运行时间：0.329680s] [吞吐率：3.03req/s] [内存消耗：1,224.28kb] [文件加载：42]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\v1\controller\Index->index[ /opt/web/hqy/application/v1/controller/Index.php ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-05T17:29:37+08:00 ] 172.26.2.190 GET local.hqy.com/v1/index/index.html
+[运行时间：0.304819s] [吞吐率：3.28req/s] [内存消耗：1,225.33kb] [文件加载：42]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\v1\controller\Index->index[ /opt/web/hqy/application/v1/controller/Index.php ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-05T17:35:41+08:00 ] 172.26.2.190 GET local.hqy.com/v1/index/index.html
+[运行时间：0.290884s] [吞吐率：3.44req/s] [内存消耗：1,531.31kb] [文件加载：47]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\v1\controller\Index->index[ /opt/web/hqy/application/v1/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/index/index.html [ array (
+  0 => 'userInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: username[/opt/web/hqy/runtime/temp/6dd79298889453df8675173df337f507.php:274]
+---------------------------------------------------------------
+[ 2019-08-05T17:36:33+08:00 ] 172.26.2.190 GET local.hqy.com/v1/index/index.html
+[运行时间：0.187952s] [吞吐率：5.32req/s] [内存消耗：1,288.70kb] [文件加载：44]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-05T17:36:33+08:00 ] 172.26.2.190 GET local.hqy.com/v1/login/index.html
+[运行时间：0.198605s] [吞吐率：5.04req/s] [内存消耗：1,411.40kb] [文件加载：44]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\v1\controller\Login->index[ /opt/web/hqy/application/v1/controller/Login.php ]
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-05T17:36:40+08:00 ] 172.26.2.190 POST local.hqy.com/v1/login/check.html
+[运行时间：0.216798s] [吞吐率：4.61req/s] [内存消耗：1,345.02kb] [文件加载：46]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/login/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://local.hqy.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '52',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '史玉龙',
+  'password' => '065012',
+)
+[ info ] [ RUN ] app\v1\controller\Login->check[ /opt/web/hqy/application/v1/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\v1\service\Base' not found[/opt/web/hqy/application/v1/service/Systems.php:12]
+---------------------------------------------------------------
+[ 2019-08-05T17:36:42+08:00 ] 172.26.2.190 POST local.hqy.com/v1/login/check.html
+[运行时间：0.195381s] [吞吐率：5.12req/s] [内存消耗：1,345.02kb] [文件加载：46]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/login/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://local.hqy.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '52',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '史玉龙',
+  'password' => '065012',
+)
+[ info ] [ RUN ] app\v1\controller\Login->check[ /opt/web/hqy/application/v1/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\v1\service\Base' not found[/opt/web/hqy/application/v1/service/Systems.php:12]
+---------------------------------------------------------------
+[ 2019-08-05T17:36:43+08:00 ] 172.26.2.190 POST local.hqy.com/v1/login/check.html
+[运行时间：0.193198s] [吞吐率：5.18req/s] [内存消耗：1,345.02kb] [文件加载：46]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/login/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://local.hqy.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '52',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '史玉龙',
+  'password' => '065012',
+)
+[ info ] [ RUN ] app\v1\controller\Login->check[ /opt/web/hqy/application/v1/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\v1\service\Base' not found[/opt/web/hqy/application/v1/service/Systems.php:12]
+---------------------------------------------------------------
+[ 2019-08-05T17:36:51+08:00 ] 172.26.2.190 GET local.hqy.com/static/assets/components/bootstrap-select/css/bootstrap-select.css.map
+[运行时间：0.208672s] [吞吐率：4.79req/s] [内存消耗：1,023.45kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'components',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'select' => 'css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-05T17:36:52+08:00 ] 172.26.2.190 POST local.hqy.com/v1/login/check.html
+[运行时间：0.183869s] [吞吐率：5.44req/s] [内存消耗：1,345.02kb] [文件加载：46]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/login/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://local.hqy.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '52',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '史玉龙',
+  'password' => '065012',
+)
+[ info ] [ RUN ] app\v1\controller\Login->check[ /opt/web/hqy/application/v1/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\v1\service\Base' not found[/opt/web/hqy/application/v1/service/Systems.php:12]
+---------------------------------------------------------------
+[ 2019-08-05T17:37:29+08:00 ] 172.26.2.190 GET local.hqy.com/v1/login/index.html
+[运行时间：0.201011s] [吞吐率：4.97req/s] [内存消耗：1,411.40kb] [文件加载：44]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\v1\controller\Login->index[ /opt/web/hqy/application/v1/controller/Login.php ]
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-05T17:37:30+08:00 ] 172.26.2.190 GET local.hqy.com/static/assets/components/bootstrap-select/css/bootstrap-select.css.map
+[运行时间：0.161467s] [吞吐率：6.19req/s] [内存消耗：1,023.45kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'components',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'select' => 'css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-05T17:37:35+08:00 ] 172.26.2.190 POST local.hqy.com/v1/login/check.html
+[运行时间：0.639378s] [吞吐率：1.56req/s] [内存消耗：2,383.29kb] [文件加载：53]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/login/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://local.hqy.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '52',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => '史玉龙',
+  'password' => '065012',
+)
+[ info ] [ RUN ] app\v1\controller\Login->check[ /opt/web/hqy/application/v1/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.116404s ] mysql:host=47.105.48.137;dbname=huiqiyun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_admin` [ RunTime:0.080362s ]
+[ sql ] [ SQL ] SELECT * FROM `h_admin` WHERE  `username` = '史玉龙'  AND `is_del` = 0 LIMIT 1 [ RunTime:0.085215s ]
+---------------------------------------------------------------
+[ 2019-08-05T17:37:36+08:00 ] 172.26.2.190 GET local.hqy.com/v1/index/index.html
+[运行时间：0.269481s] [吞吐率：3.71req/s] [内存消耗：1,485.09kb] [文件加载：45]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\Index->index[ /opt/web/hqy/application/v1/controller/Index.php ]
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/index/index.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-05T17:37:36+08:00 ] 172.26.2.190 GET local.hqy.com/static/assets/components/bootstrap-select/css/bootstrap-select.css.map
+[运行时间：0.176067s] [吞吐率：5.68req/s] [内存消耗：1,023.45kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'components',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'select' => 'css',
+)
+[ info ] [ LOG ] INIT File

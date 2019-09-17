@@ -1,0 +1,113 @@
+---------------------------------------------------------------
+[ 2019-08-09T14:05:08+08:00 ] 172.26.2.190 GET local.hqy.com/v1/system/menu.html
+[运行时间：1.356807s] [吞吐率：0.74req/s] [内存消耗：3,424.75kb] [文件加载：64]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'v1',
+    1 => 'system',
+    2 => 'menu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/v1/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\v1\controller\system->menu[ /opt/web/hqy/application/v1/controller/System.php ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /opt/web/hqy/public/../application/v1/view/system/menu.html [ array (
+  0 => 'site',
+  1 => 'config',
+  2 => 'request',
+  3 => 'userInfo',
+  4 => 'adaptive',
+  5 => 'menuList',
+  6 => 'status',
+  7 => 'type',
+  8 => 'data',
+  9 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.106493s ] mysql:host=47.105.48.137;dbname=huiqiyun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `h_menus` [ RunTime:0.075462s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `h_menus` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.074532s ]
+[ sql ] [ SQL ] SELECT `id`,`type`,`pid`,`title`,`url`,`icon`,`weigh`,`status`,`createtime`,`remark` FROM `h_menus` WHERE  `status` = 1 ORDER BY `weigh` DESC LIMIT 0,20 [ RunTime:0.087233s ]
+[ sql ] [ SQL ] SELECT * FROM `h_menus` ORDER BY `weigh` DESC [ RunTime:0.151596s ]
+---------------------------------------------------------------
+[ 2019-08-09T14:05:09+08:00 ] 172.26.2.190 GET local.hqy.com/static/assets/dist/font/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDI.woff2
+[运行时间：0.368897s] [吞吐率：2.71req/s] [内存消耗：1,026.27kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'dist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.hqy.com/static/assets/dist/css/fontcss.css',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'origin' => 'http://local.hqy.com',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'font' => '6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDI.woff2',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-09T14:05:09+08:00 ] 172.26.2.190 GET local.hqy.com/static/assets/components/bootstrap-select/css/bootstrap-select.css.map
+[运行时间：0.260150s] [吞吐率：3.84req/s] [内存消耗：1,023.53kb] [文件加载：36]
+[ info ] [ LANG ] /opt/web/hqy/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'components',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=85usmcqn38ifecrhdjpfi0dqjn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.hqy.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'select' => 'css',
+)
+[ info ] [ LOG ] INIT File
