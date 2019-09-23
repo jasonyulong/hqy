@@ -98,14 +98,13 @@ class Organizations
             }
             // 提交事务
             $organModel->commit();
-            return ['status' => true,'msg' => __('新增部门成功')];
+            return ['status' => true, 'msg' => __('新增部门成功')];
         } catch (\Exception $e) {
 //            $this->setErrors(0, Config::get('app_debug') ? $e->getMessage() : __('新增部门失败'));
             // 回滚事务
             $organModel->rollback();
-            return ['status' => false,'msg' => __('新增部门失败')];
+            return ['status' => false, 'msg' => __('新增部门失败')];
         }
-
 
 
 ////        $organModel->startTrans();
@@ -129,6 +128,46 @@ class Organizations
 //        return json(['status' => true, 'msg' => '保存成功']);
     }
 
+
+    /**
+     * @DESC：编辑成员
+     * @param $id
+     * @author: jason
+     * @date: 2019-09-19 09:40:57
+     */
+    public function edit_org($params)
+    {
+        $id = $params['id'] ?? '';
+        if (empty($id)) {
+            return json(['status' => false, 'msg' => '没有要编辑的信息']);
+        }
+        $organModel = new organ();
+        $orgInfo = $organModel->where(['id' => $id])->find()->toArray();
+        if (empty($orgInfo)) return json(['status' => false, 'msg' => '保存失败!']);
+        $save['title'] = $params['title'];
+        $save['manage_uid'] = $params['manage_uid'];
+        $res = $organModel->where(['id' => $id])->update($save);
+        if ($res === false) {
+            return json(['status' => false, 'msg' => '保存失败']);
+        }
+        return json(['status' => true, 'msg' => '保存成功']);
+    }
+
+    /**
+     * @DESC：获得当前成员的信息
+     * @param $id
+     * @return array
+     * @throws \think\Exception
+     * @author: jason
+     * @date: 2019-09-23 09:21:45
+     */
+    public function get_edit_org($id)
+    {
+        $organModel = new organ();
+        $orgInfo = $organModel->where(['id' => $id])->find()->toArray();
+        return $orgInfo;
+    }
+
     /**
      * @DESC：更新左值右值
      * @param $pid
@@ -148,8 +187,8 @@ class Organizations
         }
         $org_info = $organModel->where(['id' => $pid])->find()->toArray();
         if (empty($org_info)) return false;
-        $rid = $org_info['rid']+2;
-        $lid = $org_info['lid']+1;
+        $rid = $org_info['rid'] + 2;
+        $lid = $org_info['lid'] + 1;
         $tid = $org_info['tid'];
 //        $organModel->where(['lid' => ['GT',$org_info['lid']],'tid' => $org_info['tid']])->setInc('lid',2);
 //        // 更新右值

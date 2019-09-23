@@ -50,4 +50,27 @@ class organization extends AuthController
         $this->assign('saleUser',$data);
         return $this->fetch();
     }
+
+    /**
+     * @DESC：编辑成员
+     * @author: jason
+     * @date: 2019-09-19 09:27:21
+     */
+    public function editorg()
+    {
+        if($this->request->isPost() && $this->request->isAjax()){
+            parse_str($_POST['data'],$post);
+           return Organizations::instance()->edit_org($post);
+        }
+        $id = $_REQUEST['id'] ?? '';
+        $data = Organizations::instance()->get_edit_org($id);
+        $all_org = Organizations::instance()->getAllOrg(2);
+        $saleUser = Organizations::instance()->getUser();
+        if(!empty($saleUser)) $saleUsers = array_column($saleUser,'username','id');
+//        echo '<pre>';print_r($data);exit;
+        $this->assign('list',$data);
+        $this->assign('all_org',$all_org);
+        $this->assign('saleUser',$saleUsers);
+        return $this->fetch();
+    }
 }
